@@ -1,0 +1,19 @@
+﻿{
+    "algorithm":  "SHA-256",
+    "hash":  "257c789974ee6d1d896ec2d601c1e82bf24a1ab03a0b40c047fc94c803107295",
+    "path":  "C:\\Users\\BazikadeStore\\AppData\\Roaming\\MetaQuotes\\Terminal\\1D9617E1A6A4352DBDC25D08FEC12BD2\\MQL5\\Experts\\QTM.ex5",
+    "size_bytes":  168726,
+    "created_utc":  "2026-10-21T15:27:58.5637539Z",
+    "modified_utc":  "2026-10-21T15:27:58.5643732Z",
+    "attributes":  "Archive",
+    "readonly":  false,
+    "version_info":  {
+                         "file_version":  null,
+                         "product_version":  null,
+                         "product_name":  null,
+                         "company_name":  null,
+                         "file_description":  null,
+                         "internal_name":  null,
+                         "original_filename":  null
+                     }
+}
