@@ -1,0 +1,27 @@
+{
+  "artifact": "QTM.ex5",
+  "kind": "working-copy",
+  "source_path": "C:\\Users\\BazikadeStore\\AppData\\Roaming\\MetaQuotes\\Terminal\\1D9617E1A6A4352DBDC25D08FEC12BD2\\MQL5\\Experts\\QTM.ex5",
+  "source_is_read_only": true,
+  "provenance_chain": [
+    {
+      "file": "MQL5 Experts source (original)",
+      "sha256": "257c789974ee6d1d896ec2d601c1e82bf24a1ab03a0b40c047fc94c803107295",
+      "size_bytes": 168726
+    },
+    {
+      "file": "artifacts\\target\\working-copy\\QTM.ex5",
+      "sha256": "257c789974ee6d1d896ec2d601c1e82bf24a1ab03a0b40c047fc94c803107295",
+      "size_bytes": 168726
+    }
+  ],
+  "hash_verified_at_copy": true,
+  "verified_against": "artifacts\\baseline\\target-file-metadata.json (Phase 0 hash)",
+  "ghidra_import_result": {
+    "date": "2026-10-23",
+    "ghidra_version": "12.1.4 PUBLIC (ghidra_12.1.4_PUBLIC_20260921.zip, sha256 ddac49f903da9d5bac833e5cc79395098b9c33cfd3279be5f31bd00387d2d4db)",
+    "mode": "analyzeHeadless (no force-loading, no custom loaders)",
+    "outcome": "Import failed cleanly: 'No load spec found for import file: QTM.ex5'",
+    "note": "Stock Ghidra loader ecosystem does not recognize MetaTrader EX5. No processor was forced. See docs\\GHIDRA_VALIDATION.md and docs\\LIMITATIONS.md."
+  }
+}
