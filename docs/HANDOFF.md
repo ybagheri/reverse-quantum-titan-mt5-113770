@@ -6,7 +6,8 @@
 
 Educational, read-only binary-analysis feasibility study of MetaTrader 5 Expert Advisor `QTM.ex5` using Ghidra 12.1.4. Strict discipline: no force-loading, no modified target, no claims of recovered source or trading logic. Target EX5 and the MT5 terminal install (`C:\Program Files\Alpari MT5_4\`) remain untouched.
 
-## Current phase: All phases complete (0–7)
+## Current phase: Phase 8 (dynamic sandbox analysis) — planning complete, awaiting VM setup
+- Plan: `PHASE8_DYNAMIC_PLAN.md` (demo-only, isolated VM; host is Windows Home ⇒ VirtualBox required; install = one user admin step).
 
 ## Verified facts (do not re-derive)
 
@@ -27,6 +28,7 @@ Educational, read-only binary-analysis feasibility study of MetaTrader 5 Expert 
 - ✅ Phase 5: headless validation (real run)
 - ✅ Phase 6: EX5 feasibility probe — no native Ghidra loader for EX5
 - ✅ Phase 7: documentation — `GHIDRA_INSTALLATION.md`, `GHIDRA_VALIDATION.md`, `LIMITATIONS.md`, this handoff
+- 🟡 Phase 8: dynamic sandbox analysis — plan committed; blocked only on VirtualBox install (user admin step)
 - 🗄️ 570 MB zip retained at `C:\Users\BazikadeStore\AppData\Local\Temp\opencode\ghidra_12.1.4_PUBLIC_20260921.zip` (hash-verified; delete to reclaim disk)
 
 ## Environment notes
