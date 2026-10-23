@@ -1,6 +1,6 @@
 # HANDOFF — reverse-quantum-titan-mt5-113770
 
-Last updated: 2026-10-23 (Ghidra install, validation, EX5 probe)
+- **Last updated:** 2026-10-23 — added `artifacts\target\structural-analysis.md` (EX5 header magic `EX5\x02`, entropy ≈7.94/8 body, 2 cleartext UTF-16 literals incl. author MQL5 profile URL `https://www.mql5.com/en/users/weredeu`). Full/direct MQL5-source disassembly remains infeasible via legitimate tooling; the extracted author link is the concrete contact route for requesting the `.mq5` source. No other phases changed.
 
 ## Project
 
