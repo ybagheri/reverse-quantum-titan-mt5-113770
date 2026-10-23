@@ -6,8 +6,11 @@
 
 Educational, read-only binary-analysis feasibility study of MetaTrader 5 Expert Advisor `QTM.ex5` using Ghidra 12.1.4. Strict discipline: no force-loading, no modified target, no claims of recovered source or trading logic. Target EX5 and the MT5 terminal install (`C:\Program Files\Alpari MT5_4\`) remain untouched.
 
-## Current phase: Phase 8 (dynamic sandbox analysis) — planning complete, awaiting VM setup
-- Plan: `PHASE8_DYNAMIC_PLAN.md` (demo-only, isolated VM; host is Windows Home ⇒ VirtualBox required; install = one user admin step).
+## Current phase: Phase 8.1 — VM environment (in progress, blocked on Windows ISO = user download)
+- VirtualBox 7.2.22 installed (user). Host verified: Windows Home ⇒ Hyper-V/Sandbox unavailable; VBS hypervisor present ⇒ VBox runs via NEM (slower, works). Host RAM 11.7 GB, 4c/8t, D: 287 GB free.
+- VM `QTM-Sandbox` created: 5120 MB RAM, 2 CPU, EFI, TPM 2.0, 64 GB VDI (`D:\VMs\QTM-Sandbox\disk.vdi`), SATA (disk → port0, DVD → port1, boot1=dvd), NAT, clipboard/drag-drop disabled (isolation).
+- `D:\VMs\media\mt5setup.exe` staged (official MetaQuotes link, 23,784,536 B).
+- Next: user to download Windows 11 Enterprise eval ISO (English US, 64-bit) from https://www.microsoft.com/en-us/evalcenter/download-windows-11-enterprise → save as `D:\VMs\media\win11-enterprise-eval.iso`; then attach+boot.
 
 ## Verified facts (do not re-derive)
 
